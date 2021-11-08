@@ -27,9 +27,9 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // We created a variable called name and assign the value as Dane.
-// We check if name is true, exact match as Mary.
+// We check if name is true, exact match as Dane, but it not true.
 // We console.log 'Hi, Mary!'. To be executed if a condition is true.
-// We console.log ' How do you do?'. To be executed if a condition is false.
+// We console.log ' How do you do?' will be run since the condition is false.
 
 //CODE
 /*
@@ -47,8 +47,10 @@ if (name === 'Mary') {
 // 2. WRITE YOUR DESCRIPTION HERE
 // We created a variable called secret.
 // We created a variable called code and assigned 123 as a number.
-// We check if code is exact match of 123, secret equal string super and number 123 is multipled by 2.
-// We check if code is greater than 250 hence, it is false console.log secret.
+// We check if code is exact match of number 123.
+// We created secret equal string super.
+// We multipled number 123 by 2 and double 246.
+// We check if code is greater than 250 hence, it is false so console.log secret.
 
 //CODE
 /*
@@ -73,7 +75,13 @@ console.log(secret)
 // We created a variable called isStudent and set it to be true i.e. boolean.
 // We created variable called age, set a number to be 34.
 // We created a variable called zip, set a number to be 55407.
-// We check if isStudent is true based on the condition, console.log 'Welcome to Prime!'
+// We check if isStudent is exactly true and greater than 80000.
+// the condition is false and console.log('You're a student on the West Coast) will not run.
+// we check if else isStudent is exctly false or age less than 30, hence the conditon is false.
+// the condition console.log('What are your honnies?') will not run.
+// we check if else isStudent student is exactly true and since the condition is true.
+// the condition console.log ('Welcome to Prime!') will run.
+// else console.log('How about the weather?')
 
 //CODE
 /*
@@ -135,7 +143,9 @@ if (number >= 2) {
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
-
+// From instruction we are to set the color as;
+colorOne = 'purple'
+colorTwo = 'purple'
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -149,7 +159,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 // FIX - || means OR but the instruction states &&
-// Should be if (// temp > 39 && time >= 4)
+// Should be if (temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -163,7 +173,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 // FIX - <= less than or equal to but the instruction is greater than or equal to.
-// Hence, it should be if(minAge >= age)
+// Hence, it should be if(age >= minAge)
 if(minAge <= age) {
   console.log('no entry');
 } else {
