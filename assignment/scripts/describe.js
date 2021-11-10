@@ -50,7 +50,7 @@ if (name === 'Mary') {
 // We check if code is exact match of number 123.
 // We created secret equal string super.
 // We multipled number 123 by 2 and double 246.
-// We check if code is greater than 250 hence, it is false so console.log secret.
+// We check if code is greater than 250 hence, it is false so console.log secret means secret equal super
 
 //CODE
 /*
@@ -173,7 +173,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 // FIX - <= less than or equal to but the instruction is greater than or equal to.
-// Hence, it should be if(age >= minAge)
+// Hence, it should be if(age >= minAge). Therefore console.log('enter');
 if(minAge <= age) {
   console.log('no entry');
 } else {
